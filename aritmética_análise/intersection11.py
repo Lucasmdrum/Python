@@ -6,6 +6,7 @@ def intersection(function: Callable[[float], float], x0: float, x1: float) -> fl
     """
     function is the f we want to find its root
     x0 and x1 are two random starting points
+    
     >>> intersection(lambda x: x ** 3 - 1, -5, 5)
     0.9999999999954654
     >>> intersection(lambda x: x ** 3 - 1, 5, 5)
